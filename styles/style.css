@@ -121,3 +121,8 @@ footer img {
   flex: 1;
   margin: 10px;
 }
+
+nav a.logo img {
+  height: 30px;
+  width: auto;
+}

@@ -114,15 +114,18 @@ footer img {
 
 #apie {
   display: flex;
+  flex-direction: row;
+  /* Change the flex direction to row */
   flex-wrap: wrap;
 }
 
 #apie p {
-  flex: 1;
+  flex-basis: 100%;
   margin: 10px;
+  box-sizing: border-box;
 }
 
 nav a.logo img {
   height: 30px;
-  width: auto;
+  width: 100px;
 }

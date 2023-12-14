@@ -111,3 +111,13 @@ footer img {
   background: #125688;
   color: white;
 }
+
+#apie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#apie p {
+  flex: 1;
+  margin: 10px;
+}

@@ -52,11 +52,6 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-  width: 1300px;
-}
 
 nav {
   background-color: #ffffff;
@@ -64,6 +59,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
+
 }
 
 nav a {
@@ -114,15 +110,12 @@ footer img {
 
 #apie {
   display: flex;
-  flex-direction: row;
-  /* Change the flex direction to row */
   flex-wrap: wrap;
 }
 
 #apie p {
-  flex-basis: 100%;
+  flex: 1;
   margin: 10px;
-  box-sizing: border-box;
 }
 
 nav a.logo img {

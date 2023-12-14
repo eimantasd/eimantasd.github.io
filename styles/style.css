@@ -127,5 +127,6 @@ footer img {
 
 nav a.logo img {
   height: 30px;
-  width: 100px;
+  width: auto;
+  max-width: 80;
 }

@@ -57,6 +57,9 @@ nav {
   background-color: #ffffff;
   padding: 10px 0;
   position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   top: 0;
   z-index: 100;
 
@@ -103,6 +106,11 @@ footer img {
   color: white;
 }
 
+.fa-print {
+  background: #3B5998;
+  color: white;
+}
+
 .fa-instagram {
   background: #125688;
   color: white;
@@ -122,4 +130,22 @@ nav a.logo img {
   height: 30px;
   width: auto;
   max-width: 80;
+}
+
+@media print {
+
+  img,
+  video,
+  iframe,
+  button,
+  nav,
+  footer,
+  audio {
+    display: none;
+  }
+
+  body {
+    color: red;
+    width: 600px;
+  }
 }

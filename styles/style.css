@@ -132,6 +132,10 @@ nav a.logo img {
   max-width: 80;
 }
 
+.mazi {
+  width: 60px;
+}
+
 @media print {
 
   img,
